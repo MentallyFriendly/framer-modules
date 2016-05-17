@@ -26,3 +26,10 @@ Makes any layer a toggle-able button. You can customise it's active state colour
 * TODO: Allow for custom hooks into activate & deactivate methods
 * TODO: Allow overriding the default animations
 
+
+#### Coordinator Layout
+
+A base layout that can handle crazy scrolling behaviour. 
+* TODO: Pretty much everything still...
+
+

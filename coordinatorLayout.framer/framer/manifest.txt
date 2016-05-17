@@ -1,4 +1,9 @@
 app.coffee
+framer/backups/backup-2016-05-17 17.12.32.coffee
+framer/backups/backup-2016-05-17 17.33.32.coffee
+framer/backups/backup-2016-05-17 17.34.32.coffee
+framer/backups/backup-2016-05-17 17.44.32.coffee
+framer/backups/backup-2016-05-17 17.45.32.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -13,6 +18,8 @@ framer/images/cursor.png
 framer/images/cursor@2x.png
 framer/images/icon-120.png
 framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
 framer/images/icon-76.png
 framer/images/icon-arrow.png
 framer/images/icon-arrow@2x.png
@@ -26,13 +33,6 @@ framer/manifest.txt
 framer/mirror.css
 framer/style.css
 framer/version
-imported/toggleButton@2x/images/Layer-background-ntixrdex.png
-imported/toggleButton@2x/images/Layer-button-otzboda4.png
-imported/toggleButton@2x/images/Layer-contents-oddgmjg3.png
-imported/toggleButton@2x/images/Layer-contentsActive-qkqzrti5.png
-imported/toggleButton@2x/layers.json
-imported/toggleButton@2x/layers.json.js
 index.html
+modules/coordinatorLayout.coffee
 modules/myModule.coffee
-modules/rippleButton.coffee
-modules/toggleButton.coffee
