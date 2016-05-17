@@ -1,3 +1,5 @@
+#The ripple button module applies a material ripple to any layer
+
 #Import the ripple button module
 rippleButton = require "rippleButton"
 
