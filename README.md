@@ -28,7 +28,6 @@ Makes any layer a toggle-able button. You can customise it's active state colour
 
 
 #### Coordinator Layout
-
 [Example](http://share.framerjs.com/65xtvbd3eduw/)
 
 A base layout that controls collapsable/scrolling headers & footers. A crude approximation of Android's coordinatorLayout
