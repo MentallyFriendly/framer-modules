@@ -39,9 +39,7 @@ exports.make = () ->
 	scrollview.content.on "change:y", ->
 		scrollY = Math.max(Math.min(scrollview.scrollY, scrollview.content.height-scrollview.height), 0)
 		deltaY = scrollY - lastY;
-		# print deltaY
 
-		# print scrollview.direction
 		for item in coordinatorLayout.scrollingChildren
 
 			if item.scrollDirection == exports.scrollDirection.UP && item.scrollBehaviour == exports.scrollBehaviour.RETURN
@@ -49,6 +47,15 @@ exports.make = () ->
 
 			else if item.scrollDirection == exports.scrollDirection.UP && item.scrollBehaviour == exports.scrollBehaviour.AWAY
 				item.y = Math.max(-scrollY+item.startY, item.stickyPoint)	
+
+			else if item.scrollDirection == exports.scrollDirection.DOWN && item.scrollBehaviour == exports.scrollBehaviour.RETURN
+				# print Math.max(scrollY-item.startY, item.returnY), scrollY+item.startY
+				item.y = Math.max(Math.min(item.y+deltaY, item.stickyPoint), Math.min(scrollY+item.startY, item.returnY))	
+
+			else if item.scrollDirection == exports.scrollDirection.DOWN && item.scrollBehaviour == exports.scrollBehaviour.AWAY
+				item.y = Math.min(scrollY+item.startY, item.stickyPoint)	
+
+
 
 
 		lastY = scrollY

@@ -54,6 +54,23 @@ toolbarB = new Layer
 coordinatorLayout.addScrollingChild(toolbarB, coordinatorLayout.scrollDirection.UP, -dpToPx(0), coordinatorLayout.scrollBehaviour.RETURN, dpToPx(56))
 
 
+footerA = new Layer
+	y: Screen.height - dpToPx(56)
+	width: background.width
+	height: dpToPx(56*1)
+	backgroundColor: "#303F9F"
+	
+coordinatorLayout.addScrollingChild(footerA, coordinatorLayout.scrollDirection.DOWN, Screen.height, coordinatorLayout.scrollBehaviour.AWAY, Screen.height - dpToPx(56))
+
+footerB = new Layer
+	y: Screen.height - dpToPx(56*2)
+	width: background.width
+	height: dpToPx(56*1)
+	backgroundColor: "#283593"
+	
+coordinatorLayout.addScrollingChild(footerB, coordinatorLayout.scrollDirection.DOWN, Screen.height - dpToPx(56), coordinatorLayout.scrollBehaviour.RETURN, Screen.height - dpToPx(56))
+
+
 
 
 
