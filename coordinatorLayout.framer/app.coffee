@@ -32,22 +32,30 @@ toolbarA = new Layer
 	backgroundColor: "#3949AB"
 
 	
-#Then call the addScrollingChild method. It takes 5 args (layer, scrollDirection, stickyPoint, scrollBehaviour, returnPoint)
-# Layer - the target layer
-# scrollDirection	- dictates whether the element moves up or down on scroll. Set it using the constants coordinatorLayout.scrollDirection.UP, and coordinatorLayout.scrollDirection.DOWN
-# stickyPoint - The point at which the element should stop scrolling & become fixed. By default, it's the inverse of the element's height
-# scrollBehaviour - dictates whether the element returns on a reverse scroll, or stays in it's natural position. Set it using the constants coordinatorLayout.scrollBehaviour.AWAY, or coordinatorLayout.scrollBehaviour.RETURN
-#returnPoint - the point that the element will return to, if scrollBehaviour is set to RETURN. Ignored if set to AWAY
+#Then call the addScrollingChild method. It takes 2 args, the layer, and the options.
+#The options object has the following properties
+# scrollDirection	- dictates whether the element moves up or down on scroll. Set it using the constants coordinatorLayout.scrollDirection.UP, and coordinatorLayout.scrollDirection.DOWN. Default UP
+# stickyY - The point at which the element should stop scrolling & become fixed. Default to just offscreen either up or down
+# scrollBehaviour - dictates whether the element returns on a reverse scroll, or stays in it's natural position. Set it using the constants coordinatorLayout.scrollBehaviour.AWAY, or coordinatorLayout.scrollBehaviour.RETURN. Default AWAY
+#returnY - the point that the element will return to, if scrollBehaviour is set to RETURN. Ignored if set to AWAY. Default 0
+#onYChanged - Called when an element moves, passes in the element and the current scroll, The element will have the custom properties startY, stickyY, returnY
 
-coordinatorLayout.addScrollingChild(toolbarA, coordinatorLayout.scrollDirection.UP, -dpToPx(56*3), coordinatorLayout.scrollBehaviour.AWAY, 0)
+coordinatorLayout.addScrollingChild(toolbarA,
+	{
+		onYChanged:(item) ->
+	}
+)
 
 toolbarACollapsed = new Layer
 	y: dpToPx(56*2)
 	width: background.width
 	height: dpToPx(56)
 	backgroundColor: "#3949AB"
-	
-coordinatorLayout.addScrollingChild(toolbarACollapsed, coordinatorLayout.scrollDirection.UP, -dpToPx(56*1), coordinatorLayout.scrollBehaviour.RETURN, 0)
+
+coordinatorLayout.addScrollingChild(toolbarACollapsed, {
+	scrollBehaviour:coordinatorLayout.scrollBehaviour.RETURN,
+	returnY: 0
+})
 
 
 toolbarB = new Layer
@@ -56,7 +64,11 @@ toolbarB = new Layer
 	height: dpToPx(56*1)
 	backgroundColor: "#303F9F"
 	
-coordinatorLayout.addScrollingChild(toolbarB, coordinatorLayout.scrollDirection.UP, -dpToPx(0), coordinatorLayout.scrollBehaviour.RETURN, dpToPx(56))
+coordinatorLayout.addScrollingChild(toolbarB, {
+	stickyY: 0
+	scrollBehaviour:coordinatorLayout.scrollBehaviour.RETURN, 
+	returnY: dpToPx(56)
+})
 
 
 footerA = new Layer
@@ -64,9 +76,13 @@ footerA = new Layer
 	width: background.width
 	height: dpToPx(56*1)
 	backgroundColor: "#303F9F"
+	
+coordinatorLayout.addScrollingChild(footerA, {
+	scrollDirection:coordinatorLayout.scrollDirection.DOWN,
+	scrollBehaviour:coordinatorLayout.scrollBehaviour.RETURN,
+	returnY: Screen.height - dpToPx(56)
+})
 
-#When adding elements where scrollDirection is set to DOWN, you must define stickyPoint, or it'll fuck up for now
-coordinatorLayout.addScrollingChild(footerA, coordinatorLayout.scrollDirection.DOWN, Screen.height, coordinatorLayout.scrollBehaviour.RETURN, Screen.height - dpToPx(56))
 
 footerB = new Layer
 	x: Screen.width - dpToPx(56) - dpToPx(16)
@@ -76,24 +92,19 @@ footerB = new Layer
 	borderRadius: dpToPx(56/2)
 	backgroundColor: "#F50057"
 	
-rippleButton.addRipple(footerB)
+coordinatorLayout.addScrollingChild(footerB, {
+	scrollDirection:coordinatorLayout.scrollDirection.DOWN
+	stickyY: Screen.height - dpToPx(56) - dpToPx(16)
+	scrollBehaviour:coordinatorLayout.scrollBehaviour.RETURN
+	returnY: Screen.height - dpToPx(56*2) - dpToPx(16)
+})
 
-#When adding elements where scrollDirection is set to DOWN, and scrollBehaviour is set to return, you must define both stickyPoint & returnPoint, or it'll be a disaster
-coordinatorLayout.addScrollingChild(footerB, coordinatorLayout.scrollDirection.DOWN, Screen.height - dpToPx(56) - dpToPx(16), coordinatorLayout.scrollBehaviour.RETURN, Screen.height - dpToPx(56*2) - dpToPx(16))
 
-
-
-coordinatorLayout.scrollview.contentInset = 
+coordinatorLayout.scrollview.contentInset =
 	top: dpToPx(56*4)
 	right: 0
-	bottom: dpToPx(56*1)+dpToPx(8)
+	bottom: dpToPx(56*2)
 	left: 0
-
-	
-
-
-
-	
 	
 
 		
