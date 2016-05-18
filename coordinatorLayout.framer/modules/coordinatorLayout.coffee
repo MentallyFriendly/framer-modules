@@ -16,6 +16,7 @@ exports.scrollBehaviour =
 	RETURN: 1
 
 
+
 lastY = 0
 
 exports.make = () ->
@@ -75,3 +76,4 @@ exports.addScrollingChild = (item, direction =  exports.scrollDirection.UP, stic
 	item.returnY = returnY
 	exports.coordinatorLayout.scrollingChildren.push(item)
 	exports.coordinatorLayout.addChild(item)
+

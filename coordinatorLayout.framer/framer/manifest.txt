@@ -1,25 +1,25 @@
 app.coffee
-framer/backups/backup-2016-05-18 08.46.51.coffee
-framer/backups/backup-2016-05-18 08.54.51.coffee
-framer/backups/backup-2016-05-18 09.53.40.coffee
-framer/backups/backup-2016-05-18 09.55.40.coffee
-framer/backups/backup-2016-05-18 10.13.51.coffee
-framer/backups/backup-2016-05-18 10.14.51.coffee
-framer/backups/backup-2016-05-18 10.16.51.coffee
-framer/backups/backup-2016-05-18 10.17.51.coffee
-framer/backups/backup-2016-05-18 10.18.51.coffee
-framer/backups/backup-2016-05-18 10.20.51.coffee
-framer/backups/backup-2016-05-18 10.22.51.coffee
-framer/backups/backup-2016-05-18 10.23.51.coffee
-framer/backups/backup-2016-05-18 10.24.51.coffee
-framer/backups/backup-2016-05-18 10.26.51.coffee
-framer/backups/backup-2016-05-18 10.27.51.coffee
-framer/backups/backup-2016-05-18 10.34.51.coffee
-framer/backups/backup-2016-05-18 10.40.51.coffee
-framer/backups/backup-2016-05-18 10.44.51.coffee
-framer/backups/backup-2016-05-18 10.45.51.coffee
-framer/backups/backup-2016-05-18 10.48.51.coffee
-framer/backups/backup-2016-05-18 10.49.51.coffee
+framer/backups/backup-2016-05-18 11.00.51.coffee
+framer/backups/backup-2016-05-18 11.01.51.coffee
+framer/backups/backup-2016-05-18 11.02.51.coffee
+framer/backups/backup-2016-05-18 11.04.51.coffee
+framer/backups/backup-2016-05-18 11.05.51.coffee
+framer/backups/backup-2016-05-18 11.06.51.coffee
+framer/backups/backup-2016-05-18 11.07.51.coffee
+framer/backups/backup-2016-05-18 11.08.51.coffee
+framer/backups/backup-2016-05-18 11.09.51.coffee
+framer/backups/backup-2016-05-18 11.10.51.coffee
+framer/backups/backup-2016-05-18 11.11.51.coffee
+framer/backups/backup-2016-05-18 11.12.51.coffee
+framer/backups/backup-2016-05-18 11.13.51.coffee
+framer/backups/backup-2016-05-18 11.14.51.coffee
+framer/backups/backup-2016-05-18 11.15.51.coffee
+framer/backups/backup-2016-05-18 11.16.51.coffee
+framer/backups/backup-2016-05-18 11.17.51.coffee
+framer/backups/backup-2016-05-18 11.18.51.coffee
+framer/backups/backup-2016-05-18 11.19.51.coffee
+framer/backups/backup-2016-05-18 11.20.51.coffee
+framer/backups/backup-2016-05-18 11.21.51.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -52,3 +52,4 @@ framer/version
 index.html
 modules/coordinatorLayout.coffee
 modules/myModule.coffee
+modules/rippleButton.coffee
