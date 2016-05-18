@@ -8,9 +8,15 @@ exports.coordinatorLayout = null
 exports.scrollview = null
 
 exports.scrollDirection = 
-	UP: 0
-	DOWN: 1
+	UP: "up"
+	DOWN: "down"
 
+exports.scrollBehaviour = 
+	AWAY: 0
+	RETURN: 1
+
+
+lastY = 0
 
 exports.make = () ->
 	coordinatorLayout = new Layer
@@ -32,18 +38,33 @@ exports.make = () ->
 
 	scrollview.content.on "change:y", ->
 		scrollY = Math.max(Math.min(scrollview.scrollY, scrollview.content.height-scrollview.height), 0)
+		deltaY = scrollY - lastY;
+		# print deltaY
+
+		# print scrollview.direction
 		for item in coordinatorLayout.scrollingChildren
 
-			if item.scrollDirection == exports.scrollDirection.UP
-				item.y = Math.max(-scrollY+item.startY, item.stickyPoint)
+			if item.scrollDirection == exports.scrollDirection.UP && item.scrollBehaviour == exports.scrollBehaviour.RETURN
+				item.y = Math.min(Math.max(item.y-deltaY, item.stickyPoint), Math.max(-scrollY+item.startY, item.returnY))
+
+			else if item.scrollDirection == exports.scrollDirection.UP && item.scrollBehaviour == exports.scrollBehaviour.AWAY
+				item.y = Math.max(-scrollY+item.startY, item.stickyPoint)	
+
+
+		lastY = scrollY
+
+
+
 
 	exports.coordinatorLayout = coordinatorLayout
 	exports.scrollview = scrollview
 
 
-exports.addScrollingChild = (item, direction =  exports.scrollDirection.UP, stickyPoint = item.height*-1) ->
+exports.addScrollingChild = (item, direction =  exports.scrollDirection.UP, stickyPoint = item.height*-1, scrollBehaviour = exports.scrollBehaviour.AWAY, returnY = 0) ->
 	item.scrollDirection = direction
 	item.stickyPoint = stickyPoint
+	item.scrollBehaviour = scrollBehaviour
 	item.startY = item.y
+	item.returnY = returnY
 	exports.coordinatorLayout.scrollingChildren.push(item)
 	exports.coordinatorLayout.addChild(item)
