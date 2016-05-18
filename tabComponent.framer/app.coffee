@@ -1,3 +1,5 @@
+# Import file "tabs" (sizes and positions are scaled 1:2)
+sketch = Framer.Importer.load("imported/tabs@2x")
 this.TabComponent = (require "TabComponent").TabComponent
 
 dpToPx = (v) ->
@@ -5,22 +7,14 @@ dpToPx = (v) ->
 
 
 
-		
-		
-
-
-randomTabs = []
-for i in [0..5]
-	tab = new Layer
-		width: Utils.randomNumber(dpToPx(100), Screen.width*0.75)
-		height: dpToPx(56)
-		backgroundColor: Utils.randomColor()
-	randomTabs.push(tab)
 
 tabComponent = new TabComponent
 	width: Screen.width
-	height: dpToPx(56)
-	tabs: randomTabs
+	height: dpToPx(48)
+	tabs: sketch.tabs.children
 	indicatorHeight: dpToPx(2)
 	indicatorColor: "#FFF"
+	
+tabComponent.on "tabs:change:tab", (tabIndex) ->
+	print tabIndex
 	

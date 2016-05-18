@@ -1,6 +1,4 @@
-Events.derp = "derp"
-
-this.CoordinatorLayout = (require "coordinatorLayout").CoordinatorLayout
+this.CoordinatorLayout = (require "CoordinatorLayout").CoordinatorLayout
 
 #Utils
 dpToPx = (v) ->
@@ -40,8 +38,8 @@ toolbarA = new Layer
 # #onYChanged - Called when an element moves, passes in the element and the current scroll, The element will have the custom properties startY, stickyY, returnY
 # 
 
-toolbarA.on "coordinatedChild:change:y", (layer) ->
-	print layer.returnY
+# toolbarA.on "coordinatedChild:change:y", (layer) ->
+# 	print layer.returnY
 	
 coordinatorLayout.addDependantChild(toolbarA)
 

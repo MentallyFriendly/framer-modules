@@ -1,6 +1,4 @@
 app.coffee
-framer/backups/backup-2016-05-18 17.49.58.coffee
-framer/backups/backup-2016-05-18 17.50.58.coffee
 framer/backups/backup-2016-05-18 17.52.53.coffee
 framer/backups/backup-2016-05-18 17.53.53.coffee
 framer/backups/backup-2016-05-18 17.55.53.coffee
@@ -16,6 +14,12 @@ framer/backups/backup-2016-05-18 18.08.31.coffee
 framer/backups/backup-2016-05-18 18.09.31.coffee
 framer/backups/backup-2016-05-18 18.10.31.coffee
 framer/backups/backup-2016-05-18 18.11.31.coffee
+framer/backups/backup-2016-05-18 20.14.45.coffee
+framer/backups/backup-2016-05-18 22.01.14.coffee
+framer/backups/backup-2016-05-18 22.02.14.coffee
+framer/backups/backup-2016-05-18 22.04.14.coffee
+framer/backups/backup-2016-05-18 22.37.14.coffee
+framer/backups/backup-2016-05-18 22.40.14.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -45,6 +49,14 @@ framer/manifest.txt
 framer/mirror.css
 framer/style.css
 framer/version
+imported/tabs@2x/images/Layer-tab-mjzemune.png
+imported/tabs@2x/images/Layer-tab-mkrbmerc.png
+imported/tabs@2x/images/Layer-tab-ndvdmke5.png
+imported/tabs@2x/images/Layer-tab-odnfnerd.png
+imported/tabs@2x/images/Layer-tab-qjy4otix.png
+imported/tabs@2x/images/Layer-tab-rtdfreey.png
+imported/tabs@2x/layers.json
+imported/tabs@2x/layers.json.js
 index.html
 modules/myModule.coffee
 modules/TabComponent.coffee

@@ -1,6 +1,4 @@
 app.coffee
-framer/backups/backup-2016-05-18 15.50.19.coffee
-framer/backups/backup-2016-05-18 17.59.56.coffee
 framer/backups/backup-2016-05-18 20.14.21.coffee
 framer/backups/backup-2016-05-18 20.15.21.coffee
 framer/backups/backup-2016-05-18 20.31.21.coffee
@@ -20,6 +18,8 @@ framer/backups/backup-2016-05-18 21.41.50.coffee
 framer/backups/backup-2016-05-18 21.42.50.coffee
 framer/backups/backup-2016-05-18 21.43.50.coffee
 framer/backups/backup-2016-05-18 21.44.50.coffee
+framer/backups/backup-2016-05-18 21.45.50.coffee
+framer/backups/backup-2016-05-18 21.49.50.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -50,6 +50,6 @@ framer/mirror.css
 framer/style.css
 framer/version
 index.html
-modules/coordinatorLayout.coffee
+modules/CoordinatorLayout.coffee
 modules/myModule.coffee
 modules/rippleButton.coffee
