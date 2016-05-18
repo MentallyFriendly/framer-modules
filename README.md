@@ -30,6 +30,7 @@ Makes any layer a toggle-able button. You can customise it's active state colour
 #### Coordinator Layout
 
 [Example](http://share.framerjs.com/kegbn2omfmxc/)
+
 A base layout that controls collapsable/scrolling headers & footers. A crude approximation of Android's coordinatorLayout
 * TODO: Change addScrollingChild method to take an options object, instead of a ton of args
 * TODO: Allow for custom scroll & stick hooks, so we can do badass scroll-based animations.
