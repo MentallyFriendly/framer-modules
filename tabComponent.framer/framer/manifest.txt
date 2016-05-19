@@ -1,13 +1,4 @@
 app.coffee
-framer/backups/backup-2016-05-18 17.52.53.coffee
-framer/backups/backup-2016-05-18 17.53.53.coffee
-framer/backups/backup-2016-05-18 17.55.53.coffee
-framer/backups/backup-2016-05-18 17.56.53.coffee
-framer/backups/backup-2016-05-18 17.58.31.coffee
-framer/backups/backup-2016-05-18 17.59.31.coffee
-framer/backups/backup-2016-05-18 18.02.31.coffee
-framer/backups/backup-2016-05-18 18.03.31.coffee
-framer/backups/backup-2016-05-18 18.04.31.coffee
 framer/backups/backup-2016-05-18 18.05.31.coffee
 framer/backups/backup-2016-05-18 18.07.31.coffee
 framer/backups/backup-2016-05-18 18.08.31.coffee
@@ -20,6 +11,15 @@ framer/backups/backup-2016-05-18 22.02.14.coffee
 framer/backups/backup-2016-05-18 22.04.14.coffee
 framer/backups/backup-2016-05-18 22.37.14.coffee
 framer/backups/backup-2016-05-18 22.40.14.coffee
+framer/backups/backup-2016-05-18 22.44.30.coffee
+framer/backups/backup-2016-05-19 11.09.30.coffee
+framer/backups/backup-2016-05-19 11.11.30.coffee
+framer/backups/backup-2016-05-19 11.20.30.coffee
+framer/backups/backup-2016-05-19 11.21.30.coffee
+framer/backups/backup-2016-05-19 11.22.30.coffee
+framer/backups/backup-2016-05-19 11.23.30.coffee
+framer/backups/backup-2016-05-19 11.24.30.coffee
+framer/backups/backup-2016-05-19 11.54.30.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -58,5 +58,8 @@ imported/tabs@2x/images/Layer-tab-rtdfreey.png
 imported/tabs@2x/layers.json
 imported/tabs@2x/layers.json.js
 index.html
+modules/AnimatedPages.coffee
+modules/CoordinatorLayout.coffee
 modules/myModule.coffee
+modules/rippleButton.coffee
 modules/TabComponent.coffee
