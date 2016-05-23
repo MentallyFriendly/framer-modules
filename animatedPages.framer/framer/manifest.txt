@@ -1,0 +1,139 @@
+app.coffee
+framer/backups/backup-2016-05-23 12.14.51.coffee
+framer/backups/backup-2016-05-23 12.15.51.coffee
+framer/backups/backup-2016-05-23 14.39.39.coffee
+framer/backups/backup-2016-05-23 14.40.39.coffee
+framer/backups/backup-2016-05-23 14.55.39.coffee
+framer/backups/backup-2016-05-23 14.57.39.coffee
+framer/backups/backup-2016-05-23 14.58.39.coffee
+framer/backups/backup-2016-05-23 15.58.39.coffee
+framer/backups/backup-2016-05-23 15.59.39.coffee
+framer/backups/backup-2016-05-23 16.03.39.coffee
+framer/backups/backup-2016-05-23 16.04.39.coffee
+framer/backups/backup-2016-05-23 16.17.39.coffee
+framer/backups/backup-2016-05-23 16.18.39.coffee
+framer/backups/backup-2016-05-23 16.24.39.coffee
+framer/backups/backup-2016-05-23 16.36.39.coffee
+framer/backups/backup-2016-05-23 16.38.39.coffee
+framer/backups/backup-2016-05-23 16.43.39.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/style.css
+framer/version
+imported/Animated Pages@2x/images/Layer-active-ndvgqkq3.png
+imported/Animated Pages@2x/images/Layer-active-qzdenuu1.png
+imported/Animated Pages@2x/images/Layer-active-qzi4meu1.png
+imported/Animated Pages@2x/images/Layer-animate_fade-ruiymkfg.png
+imported/Animated Pages@2x/images/Layer-animate_slideDown-nzayqze3.png
+imported/Animated Pages@2x/images/Layer-animate_slideDown-nzrdndyx.png
+imported/Animated Pages@2x/images/Layer-animate_slideFadeUp-nkm1odhc.png
+imported/Animated Pages@2x/images/Layer-background-mjgxoui4.png
+imported/Animated Pages@2x/images/Layer-inactive-nzewnei5.png
+imported/Animated Pages@2x/images/Layer-inactive-qtezqunc.png
+imported/Animated Pages@2x/images/Layer-inactive-rdgyrkiw.png
+imported/Animated Pages@2x/images/Layer-navbar-njndqunf.png
+imported/Animated Pages@2x/images/Layer-row-mzq3q0qw.png
+imported/Animated Pages@2x/images/Layer-row_copy-rkuyouq2.png
+imported/Animated Pages@2x/images/Layer-row_copy_2-mzdcmeve.png
+imported/Animated Pages@2x/images/Layer-row_copy_3-qjhfmdy0.png
+imported/Animated Pages@2x/images/Layer-row_copy_4-odvgqkq2.png
+imported/Animated Pages@2x/images/Layer-row_copy_5-qjcwmjy2.png
+imported/Animated Pages@2x/images/Layer-statusbar-ntc4nthe.png
+imported/Animated Pages@2x/images/Layer-tabComponent-otixmjmx.png
+imported/Animated Pages@2x/images/Layer-tile-mki4mta3.png
+imported/Animated Pages@2x/images/Layer-tile_copy-nzlemtvg.png
+imported/Animated Pages@2x/images/Layer-tile_copy_2-rjm5nei0.png
+imported/Animated Pages@2x/images/Layer-tile_copy_3-q0vemtk2.png
+imported/Animated Pages@2x/layers.json
+imported/Animated Pages@2x/layers.json.js
+imported/Animated Pages@3x/images/Layer-active-ndvgqkq3.png
+imported/Animated Pages@3x/images/Layer-active-qzdenuu1.png
+imported/Animated Pages@3x/images/Layer-active-qzi4meu1.png
+imported/Animated Pages@3x/images/Layer-animate_fade-nei4rtc5.png
+imported/Animated Pages@3x/images/Layer-animate_fade-neu3nzjc.png
+imported/Animated Pages@3x/images/Layer-animate_fade-ntq3oti2.png
+imported/Animated Pages@3x/images/Layer-animate_fade-odazrdg1.png
+imported/Animated Pages@3x/images/Layer-animate_fade-oeyxrjy3.png
+imported/Animated Pages@3x/images/Layer-animate_fade-rkren0fc.png
+imported/Animated Pages@3x/images/Layer-animate_fade-ruiymkfg.png
+imported/Animated Pages@3x/images/Layer-animate_slideDown-nzayqze3.png
+imported/Animated Pages@3x/images/Layer-animate_slideFadeUp-nkm1odhc.png
+imported/Animated Pages@3x/images/Layer-background-mjgxoui4.png
+imported/Animated Pages@3x/images/Layer-inactive-nzewnei5.png
+imported/Animated Pages@3x/images/Layer-inactive-qtezqunc.png
+imported/Animated Pages@3x/images/Layer-inactive-rdgyrkiw.png
+imported/Animated Pages@3x/images/Layer-navbar-njndqunf.png
+imported/Animated Pages@3x/images/Layer-row-mzq3q0qw.png
+imported/Animated Pages@3x/images/Layer-row_copy-rkuyouq2.png
+imported/Animated Pages@3x/images/Layer-row_copy_2-mzdcmeve.png
+imported/Animated Pages@3x/images/Layer-row_copy_3-qjhfmdy0.png
+imported/Animated Pages@3x/images/Layer-row_copy_4-odvgqkq2.png
+imported/Animated Pages@3x/images/Layer-row_copy_5-qjcwmjy2.png
+imported/Animated Pages@3x/images/Layer-statusbar-ntc4nthe.png
+imported/Animated Pages@3x/images/Layer-tabComponent-otixmjmx.png
+imported/Animated Pages@3x/images/Layer-tile-mki4mta3.png
+imported/Animated Pages@3x/images/Layer-tile_copy-nzlemtvg.png
+imported/Animated Pages@3x/images/Layer-tile_copy_2-rjm5nei0.png
+imported/Animated Pages@3x/images/Layer-tile_copy_3-q0vemtk2.png
+imported/Animated Pages@3x/layers.json
+imported/Animated Pages@3x/layers.json.js
+imported/Animated Pages@4x/images/Layer-active-ndvgqkq3.png
+imported/Animated Pages@4x/images/Layer-active-qzdenuu1.png
+imported/Animated Pages@4x/images/Layer-active-qzi4meu1.png
+imported/Animated Pages@4x/images/Layer-animate_fade-nei4rtc5.png
+imported/Animated Pages@4x/images/Layer-animate_fade-neu3nzjc.png
+imported/Animated Pages@4x/images/Layer-animate_fade-ntq3oti2.png
+imported/Animated Pages@4x/images/Layer-animate_fade-odazrdg1.png
+imported/Animated Pages@4x/images/Layer-animate_fade-oeyxrjy3.png
+imported/Animated Pages@4x/images/Layer-animate_fade-rkren0fc.png
+imported/Animated Pages@4x/images/Layer-animate_fade-ruiymkfg.png
+imported/Animated Pages@4x/images/Layer-animate_slideDown-nzayqze3.png
+imported/Animated Pages@4x/images/Layer-animate_slideFadeUp-nkm1odhc.png
+imported/Animated Pages@4x/images/Layer-background-mjgxoui4.png
+imported/Animated Pages@4x/images/Layer-inactive-nzewnei5.png
+imported/Animated Pages@4x/images/Layer-inactive-qtezqunc.png
+imported/Animated Pages@4x/images/Layer-inactive-rdgyrkiw.png
+imported/Animated Pages@4x/images/Layer-navbar-njndqunf.png
+imported/Animated Pages@4x/images/Layer-row-mzq3q0qw.png
+imported/Animated Pages@4x/images/Layer-row_copy-rkuyouq2.png
+imported/Animated Pages@4x/images/Layer-row_copy_2-mzdcmeve.png
+imported/Animated Pages@4x/images/Layer-row_copy_3-qjhfmdy0.png
+imported/Animated Pages@4x/images/Layer-row_copy_4-odvgqkq2.png
+imported/Animated Pages@4x/images/Layer-row_copy_5-qjcwmjy2.png
+imported/Animated Pages@4x/images/Layer-statusbar-ntc4nthe.png
+imported/Animated Pages@4x/images/Layer-tabComponent-otixmjmx.png
+imported/Animated Pages@4x/images/Layer-tile-mki4mta3.png
+imported/Animated Pages@4x/images/Layer-tile_copy-nzlemtvg.png
+imported/Animated Pages@4x/images/Layer-tile_copy_2-rjm5nei0.png
+imported/Animated Pages@4x/images/Layer-tile_copy_3-q0vemtk2.png
+imported/Animated Pages@4x/layers.json
+imported/Animated Pages@4x/layers.json.js
+index.html
+modules/AnimatedPages.coffee
+modules/myModule.coffee
+modules/TabComponent.coffee

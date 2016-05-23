@@ -39,9 +39,12 @@ A base layout that controls collapsable/scrolling headers & footers. A crude app
 Turns an array of layers into a scrollable tab strip with optional indicator. Either create your tabs manually and pass in an array of layers, or pass in an upgradeLayer which already contains individual tabs as children. Designed to be used alongside AnimatedPages
 
 #### AnimatedPages
-[Example](http://share.framerjs.com/pvoecooz9g2s/)
+[Example](http://share.framerjs.com/nlz2dtltny11/)
 
-Turns an array of layers into a series of pages. Either create your pages manually and pass in an array of layers, or pass in an upgradeLayer which already contains individual pages as children. Designed to be used alongside a TabComponent
+Turns an array of layers into a series of pages with animated transitions. Either create your pages manually and pass in an array of layers, or pass in an upgradeLayer which already contains individual pages as children. Designed to be used alongside a TabComponent. Pages can be animated as a whole, or build in individual elements. Element animations are defined by layer names - check the example/the code to see how.
+*TODO: Document this properly
+*TODO: Allow custom animations/timing/easing
+*TODO: Build a shared element transition
 
 
 ## Full Examples
