@@ -1,0 +1,192 @@
+app.coffee
+framer/backups/backup-2016-05-20 11.18.05.coffee
+framer/backups/backup-2016-05-20 11.21.05.coffee
+framer/backups/backup-2016-05-20 11.22.05.coffee
+framer/backups/backup-2016-05-20 11.45.05.coffee
+framer/backups/backup-2016-05-20 11.52.04.coffee
+framer/backups/backup-2016-05-20 12.05.04.coffee
+framer/backups/backup-2016-05-20 12.06.04.coffee
+framer/backups/backup-2016-05-20 12.07.04.coffee
+framer/backups/backup-2016-05-20 12.08.04.coffee
+framer/backups/backup-2016-05-20 12.10.04.coffee
+framer/backups/backup-2016-05-20 12.11.04.coffee
+framer/backups/backup-2016-05-20 12.13.04.coffee
+framer/backups/backup-2016-05-20 12.14.04.coffee
+framer/backups/backup-2016-05-20 13.48.02.coffee
+framer/backups/backup-2016-05-20 14.13.02.coffee
+framer/backups/backup-2016-05-20 14.14.02.coffee
+framer/backups/backup-2016-05-20 14.15.02.coffee
+framer/backups/backup-2016-05-20 14.20.02.coffee
+framer/backups/backup-2016-05-20 14.21.02.coffee
+framer/backups/backup-2016-05-23 10.37.21.coffee
+framer/backups/backup-2016-05-23 10.57.16.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/style.css
+framer/version
+imported/bottomTabs@2x/images/Layer-active-mtezrtfg.png
+imported/bottomTabs@2x/images/Layer-active-njy2qti0.png
+imported/bottomTabs@2x/images/Layer-active-nuy3mdvg.png
+imported/bottomTabs@2x/images/Layer-active-oergruy5.png
+imported/bottomTabs@2x/images/Layer-active-rtgxmdu0.png
+imported/bottomTabs@2x/images/Layer-inactive-mte0nthc.png
+imported/bottomTabs@2x/images/Layer-inactive-nte4ntyw.png
+imported/bottomTabs@2x/images/Layer-inactive-qjq4nzmw.png
+imported/bottomTabs@2x/images/Layer-inactive-qtzgotqz.png
+imported/bottomTabs@2x/images/Layer-inactive-qzc1oddg.png
+imported/bottomTabs@2x/layers.json
+imported/bottomTabs@2x/layers.json.js
+imported/sleepsense@1x/images/Layer-active-mjezrjiw.png
+imported/sleepsense@1x/images/Layer-active-mzy3mujc.png
+imported/sleepsense@1x/images/Layer-active-njgwmdfd.png
+imported/sleepsense@1x/images/Layer-active-nknemuiy.png
+imported/sleepsense@1x/images/Layer-active-qzjenda4.png
+imported/sleepsense@1x/images/Layer-background-rkm1qui4.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-mjvbqzhe.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-mtq5nuy4.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-mtqwouiy.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-mue1mdmw.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-n0rfnum0.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-ndu3ntfd.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-nue4rdhc.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-otexnju5.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-q0jeqtdg.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-qkfgntlc.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-qze4njbd.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-rdkzrjc0.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-ree5nkfe.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-req0mdy1.png
+imported/sleepsense@1x/images/Layer-button-round-ripple-rjjen0e3.png
+imported/sleepsense@1x/images/Layer-days-rtc4odkw.png
+imported/sleepsense@1x/images/Layer-frame-mdi1q0qy.png
+imported/sleepsense@1x/images/Layer-frame-mdjeode1.png
+imported/sleepsense@1x/images/Layer-frame-meq2qzde.png
+imported/sleepsense@1x/images/Layer-frame-mjbfrung.png
+imported/sleepsense@1x/images/Layer-frame-mjy0ndbb.png
+imported/sleepsense@1x/images/Layer-frame-mzmxotm3.png
+imported/sleepsense@1x/images/Layer-frame-n0nbnue4.png
+imported/sleepsense@1x/images/Layer-frame-ntuzrje0.png
+imported/sleepsense@1x/images/Layer-frame-nzcymdq2.png
+imported/sleepsense@1x/images/Layer-frame-ote3nei0.png
+imported/sleepsense@1x/images/Layer-frame-oti3q0yy.png
+imported/sleepsense@1x/images/Layer-frame-otkwnkrg.png
+imported/sleepsense@1x/images/Layer-frame-otvemzu0.png
+imported/sleepsense@1x/images/Layer-frame-q0y4nky3.png
+imported/sleepsense@1x/images/Layer-frame-rdk0rui1.png
+imported/sleepsense@1x/images/Layer-frame-rjlbrdk1.png
+imported/sleepsense@1x/images/Layer-frame-ruvgntvf.png
+imported/sleepsense@1x/images/Layer-graphContents-mzqzndg3.png
+imported/sleepsense@1x/images/Layer-graphContents-nufgrkq3.png
+imported/sleepsense@1x/images/Layer-Group-mercnzlf.png
+imported/sleepsense@1x/images/Layer-Group-mji3neex.png
+imported/sleepsense@1x/images/Layer-Group-nueynjgw.png
+imported/sleepsense@1x/images/Layer-header-return-top-muizmtaw.png
+imported/sleepsense@1x/images/Layer-inactive-mty4nknc.png
+imported/sleepsense@1x/images/Layer-inactive-nzy0oey2.png
+imported/sleepsense@1x/images/Layer-inactive-otjemey3.png
+imported/sleepsense@1x/images/Layer-inactive-rendq0rf.png
+imported/sleepsense@1x/images/Layer-inactive-rjcyrthg.png
+imported/sleepsense@1x/images/Layer-label-nzgxmuex.png
+imported/sleepsense@1x/images/Layer-label-reqyneqw.png
+imported/sleepsense@1x/images/Layer-Layer_1-qjlcqujb.png
+imported/sleepsense@1x/images/Layer-listContent-nkeyqtnd.png
+imported/sleepsense@1x/images/Layer-listContent-rkqwndzb.png
+imported/sleepsense@1x/images/Layer-screenBackground-mda3nznc.png
+imported/sleepsense@1x/images/Layer-screenBackground-njhcq0y5.png
+imported/sleepsense@1x/images/Layer-scroller-munfrji4.png
+imported/sleepsense@1x/images/Layer-statusBar-nzhfouu1.png
+imported/sleepsense@1x/layers.json
+imported/sleepsense@1x/layers.json.js
+imported/sleepsense@2x/images/Layer-active-mjezrjiw.png
+imported/sleepsense@2x/images/Layer-active-mzy3mujc.png
+imported/sleepsense@2x/images/Layer-active-njgwmdfd.png
+imported/sleepsense@2x/images/Layer-active-nknemuiy.png
+imported/sleepsense@2x/images/Layer-active-qzjenda4.png
+imported/sleepsense@2x/images/Layer-background-rkm1qui4.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-mjvbqzhe.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-mtq5nuy4.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-mtqwouiy.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-mue1mdmw.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-n0rfnum0.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-ndu3ntfd.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-nue4rdhc.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-otexnju5.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-q0jeqtdg.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-qkfgntlc.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-qze4njbd.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-rdkzrjc0.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-ree5nkfe.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-req0mdy1.png
+imported/sleepsense@2x/images/Layer-button-round-ripple-rjjen0e3.png
+imported/sleepsense@2x/images/Layer-days-rtc4odkw.png
+imported/sleepsense@2x/images/Layer-frame-mdi1q0qy.png
+imported/sleepsense@2x/images/Layer-frame-mdjeode1.png
+imported/sleepsense@2x/images/Layer-frame-meq2qzde.png
+imported/sleepsense@2x/images/Layer-frame-mjbfrung.png
+imported/sleepsense@2x/images/Layer-frame-mjy0ndbb.png
+imported/sleepsense@2x/images/Layer-frame-mzmxotm3.png
+imported/sleepsense@2x/images/Layer-frame-n0nbnue4.png
+imported/sleepsense@2x/images/Layer-frame-ntuzrje0.png
+imported/sleepsense@2x/images/Layer-frame-nzcymdq2.png
+imported/sleepsense@2x/images/Layer-frame-ote3nei0.png
+imported/sleepsense@2x/images/Layer-frame-oti3q0yy.png
+imported/sleepsense@2x/images/Layer-frame-otkwnkrg.png
+imported/sleepsense@2x/images/Layer-frame-otvemzu0.png
+imported/sleepsense@2x/images/Layer-frame-q0y4nky3.png
+imported/sleepsense@2x/images/Layer-frame-rdk0rui1.png
+imported/sleepsense@2x/images/Layer-frame-rjlbrdk1.png
+imported/sleepsense@2x/images/Layer-frame-ruvgntvf.png
+imported/sleepsense@2x/images/Layer-graphContents-mzqzndg3.png
+imported/sleepsense@2x/images/Layer-graphContents-nufgrkq3.png
+imported/sleepsense@2x/images/Layer-Group-mercnzlf.png
+imported/sleepsense@2x/images/Layer-Group-mji3neex.png
+imported/sleepsense@2x/images/Layer-Group-nueynjgw.png
+imported/sleepsense@2x/images/Layer-header-return-top-muizmtaw.png
+imported/sleepsense@2x/images/Layer-inactive-mty4nknc.png
+imported/sleepsense@2x/images/Layer-inactive-nzy0oey2.png
+imported/sleepsense@2x/images/Layer-inactive-otjemey3.png
+imported/sleepsense@2x/images/Layer-inactive-rendq0rf.png
+imported/sleepsense@2x/images/Layer-inactive-rjcyrthg.png
+imported/sleepsense@2x/images/Layer-label-nzgxmuex.png
+imported/sleepsense@2x/images/Layer-label-reqyneqw.png
+imported/sleepsense@2x/images/Layer-Layer_1-qjlcqujb.png
+imported/sleepsense@2x/images/Layer-listContent-nkeyqtnd.png
+imported/sleepsense@2x/images/Layer-listContent-rkqwndzb.png
+imported/sleepsense@2x/images/Layer-screenBackground-mda3nznc.png
+imported/sleepsense@2x/images/Layer-screenBackground-njhcq0y5.png
+imported/sleepsense@2x/images/Layer-scroller-munfrji4.png
+imported/sleepsense@2x/images/Layer-statusBar-nzhfouu1.png
+imported/sleepsense@2x/layers.json
+imported/sleepsense@2x/layers.json.js
+index.html
+modules/AnimatedPages.coffee
+modules/animations.coffee
+modules/CoordinatorLayout.coffee
+modules/myModule.coffee
+modules/rippleButton.coffee
+modules/TabComponent.coffee

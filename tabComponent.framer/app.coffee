@@ -26,14 +26,11 @@ pages = new AnimatedPages
 	height: Screen.height-dpToPx(48)
 	y: dpToPx(48)
 	pages: randomPages
-
+	
 
 tabComponent = new TabComponent
-	width: Screen.width
-	height: dpToPx(48)
-	tabs: sketch.tabs.children
+	upgradeLayer:sketch.tabs1
 	indicatorHeight: dpToPx(2)
-	indicatorColor: "#FFF"
 	
 tabComponent.on "tabs:change:tab", (tabIndex) ->
 	print tabIndex
